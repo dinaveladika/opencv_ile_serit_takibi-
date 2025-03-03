@@ -1,0 +1,9 @@
+<root main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence>
+            <DetectObstacle/>
+            <StopRobot/>
+        </Sequence>
+    </BehaviorTree>
+</root>
+

@@ -1,0 +1,54 @@
+[0.029s] Invoking command in '/home/dina/ros2_ws/src/my_bt_project/build/my_bt_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dina/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/dina/ros2_ws/src/my_bt_project -DCMAKE_INSTALL_PREFIX=/home/dina/ros2_ws/src/my_bt_project/install/my_bt_project
+[3.069s] -- The C compiler identification is GNU 11.4.0
+[3.802s] -- The CXX compiler identification is GNU 11.4.0
+[3.817s] -- Detecting C compiler ABI info
+[4.561s] -- Detecting C compiler ABI info - done
+[4.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.572s] -- Detecting C compile features
+[4.573s] -- Detecting C compile features - done
+[4.577s] -- Detecting CXX compiler ABI info
+[4.886s] -- Detecting CXX compiler ABI info - done
+[4.913s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.914s] -- Detecting CXX compile features
+[4.914s] -- Detecting CXX compile features - done
+[4.923s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.334s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.504s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[5.574s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.584s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.598s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.667s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.755s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.831s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.831s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.831s] -- Looking for pthread.h
+[6.269s] -- Looking for pthread.h - found
+[6.269s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.607s] -- Found Threads: TRUE  
+[6.775s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.908s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.091s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.093s] -- Configured cppcheck include dirs: 
+[7.093s] -- Configured cppcheck exclude dirs and/or files: 
+[7.097s] -- Added test 'lint_cmake' to check CMake code style
+[7.105s] -- Added test 'uncrustify' to check C / C++ code style
+[7.105s] -- Configured uncrustify additional arguments: 
+[7.105s] -- Added test 'xmllint' to check XML markup files
+[7.108s] -- Configuring done
+[7.114s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[7.114s]   Cannot find source file:
+[7.114s] 
+[7.114s]     behavior_tree_main.cpp
+[7.114s] 
+[7.114s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[7.114s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[7.114s] 
+[7.114s] [0m
+[7.115s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[7.115s]   No SOURCES given to target: bt_main
+[7.115s] 
+[7.115s] [0m
+[7.115s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[7.135s] Invoked command in '/home/dina/ros2_ws/src/my_bt_project/build/my_bt_project' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dina/ros2_ws/install/python_pkg:/opt/ros/humble /usr/bin/cmake /home/dina/ros2_ws/src/my_bt_project -DCMAKE_INSTALL_PREFIX=/home/dina/ros2_ws/src/my_bt_project/install/my_bt_project
